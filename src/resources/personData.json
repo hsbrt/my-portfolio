@@ -1,0 +1,221 @@
+{
+  "shortName": "Bharat",
+  "fullName": "Bharath HS",
+  "place": "Bangalore",
+  "profession": "Software Engineer",
+  "designation": "Full-stack Developer",
+  "presentCompany": "AT&T",
+  "email": "bharathhs123@gmail.com",
+  "phone": "+91-990-009-0396",
+  "address": "Bangalore, Karnataka, India",
+  "linkedIn": "https://www.linkedin.com/in/bharat-hs/",
+  "totalExperience": "15 Years",
+  "hobbies": ["Reading", "Travelling", "Coding"],
+  "aboutMe": "I'm a Full-stack Developer with over 4 years of experience in software development, specializing in web applications and cloud technologies. I have a strong background in both front-end and back-end development, with expertise in various programming languages and frameworks. My passion for coding is matched by my commitment to continuous learning and professional growth. My hobbies are reading books and long distance motorcycling riding. I live in Bangalore with my wife, son and mother.",
+  "primarySkills": [
+    {
+      "skillType": "Programming Languages",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "frameworks": ["Node.JS", "ReactJs", "NextJs", "Express", "Sequelize"]
+        },
+        {
+          "name": "TypeScript",
+          "frameworks": ["AngularTs"]
+        },
+        {
+          "name": "Python",
+          "frameworks": ["FastApi", "SQLAlchemy", "Django"]
+        }
+      ]
+    },
+    {
+      "skillType": "Mark-up Languages",
+      "skills": [
+        {
+          "name": "HTML",
+          "frameworks": []
+        },
+        {
+          "name": "CSS",
+          "frameworks": ["Bootstrap", "Tailwind CSS"]
+        },
+        {
+          "name": "YAML",
+          "frameworks": []
+        }
+      ]
+    },
+    {
+      "skillType": "Databases",
+      "skills": [
+        {
+          "name": "Relational-Databases",
+          "frameworks": ["MySql"]
+        },
+        {
+          "name": "Non-relational-Databases",
+          "frameworks": ["MongoDB"]
+        }
+      ]
+    },
+    {
+      "skillType": "Web Hosting",
+      "skills": [
+        {
+          "name": "Azure-Public-Cloud",
+          "frameworks": [
+            "Azure Kubernetes Service",
+            "Azure VMS",
+            "Azure App Service",
+            "Terraform"
+          ]
+        },
+        {
+          "name": "Azure-DevOps",
+          "frameworks": ["Docker", "Kubernetes", "Helm"]
+        }
+      ]
+    },
+    {
+      "skillType": "Certifications",
+      "skills": [
+        {
+          "name": "AWS-Certified-Solutions-Architect",
+          "frameworks": ["Year-2022"]
+        },
+        {
+          "name": "Microsoft-Certified:Azure-Fundamentals",
+          "frameworks": ["Year-2023"]
+        }
+      ]
+    }
+  ],
+  "listOfCompaniesWorkedIn": ["Ericsson", "Airtel", "AT&T"],
+  "education": {
+    "degree": "Bachelor of Engineering",
+    "field": "Electronics and Communications",
+    "university": "Visvesvaraya Technological University, Karnataka, India",
+    "passedOut": 2010,
+    "grade": "First Class"
+  },
+  "workExperiences": [
+    {
+      "organization": "Ericsson India Pvt Ltd",
+      "companyShortName": "Ericsson",
+      "currentlyWorkingHere": false,
+      "client": "Bharti Airtel",
+      "designation": "Data Center Technician",
+      "duration": "3 Years, 2010 to 2013",
+      "skills": [
+        "Cabling",
+        "Backup Management",
+        "Disaster Recovery",
+        "Inventory Management",
+        "Preventive Maintenance",
+        "Hardware Installations and De-commissioning"
+      ],
+      "responsibilities": [
+        "Troubleshooting layer-1, 2 & 3 breakdown issues.",
+        "Preventive maintenance, Health checkups of Network elements, & to attend the critical node alarms.",
+        "Operations & maintenance, Emergency Handling, Testing, Acceptance Testing and support.",
+        "Monitoring Core elements, Backup Management, Spare & inventory management."
+      ]
+    },
+    {
+      "organization": "Bharti Airtel Pvt Ltd",
+      "companyShortName": "Airtel",
+      "currentlyWorkingHere": false,
+      "client": null,
+      "products": [
+        { "name": "mobility", "flavors": ["2G", "3G", "4G", "VoLTE"] },
+        { "name": "fixed-line", "flavors": ["PSTN", "IPTV"] }
+      ],
+      "designation": "Senior Executive, Integrated Core Network Operations",
+      "duration": "3.5 Years Nov 2013 to 2017 July.",
+      "skills": [
+        "PSTN",
+        "GSM",
+        "UMTS",
+        "LTE",
+        "Switching",
+        "SS7",
+        "Tele traffic Engineering",
+        "MPBN",
+        "CCN",
+        "Transport Networks"
+      ],
+      "responsibilities": [
+        "Call flows and troubleshooting.",
+        "KPI & Utilization monitoring, Analysis and Improvements.",
+        "New Product and Feature analysis.",
+        "Circuit Core Network Reliability, Incident management, Outage management, Disaster recovery and damage control management.",
+        "Core Network Hygiene in Architecture, Alarm and fault management, Backups and Spare management.",
+        "Core transport media diversity & redundancy planning and operations."
+      ]
+    },
+    {
+      "organization": "AT&T Communication Services India Pvt Ltd",
+      "companyShortName": "AT&T",
+      "currentlyWorkingHere": false,
+      "designation": "Sr. Associate, Integrated Solutions Delivery, ADI-BVOIP DTAC Center",
+      "products": [
+        { "name": "ADI" },
+        { "name": "BVoIP" },
+        { "name": "Collaborate" }
+      ],
+      "duration": "4 Years, July 2017 to July 2021",
+      "skills": ["CCNA", "VoIP", "IPFlex", "Routing and Switching"],
+      "responsibilities": [
+        "Activation of Data & Voice Services to customers.",
+        "Verifying & Configuring of the customer router.",
+        "To prepare the customer router and order for Test and Turn up activation.",
+        "LAN Migration/Cut Over and Hot Swap activities with minimal/No outage.",
+        "Troubleshooting the circuit issues, inside wiring issues, and router configuration issues."
+      ]
+    },
+    {
+      "organization": "AT&T Communication Services India Pvt Ltd",
+      "companyShortName": "AT&T",
+      "currentlyWorkingHere": true,
+      "designation": "Specialist, Full-stack Developer",
+      "products": [
+        {
+          "name": "Integrated Solutions Portal",
+          "techStack": [
+            "MySql",
+            "Express",
+            "AngularTs",
+            "Node",
+            "python",
+            "FastApi",
+            "Sequelize",
+            "SQLAlchemy"
+          ],
+          "description": "This is a platform or an application eco system used internally for tasks and tracking within AT&T. Hosted on Azure K8S cluster with multiple microservices operating for different applications. Powered by MySql, Express, Angular, Node and Python tech stack. Highly used across AT&T for Tracking and Monitoring of the tickets."
+        }
+      ],
+      "duration": "4 Years, Since July 2021",
+      "primarySkills": [
+        "Software Development Skills (Intermediate): Full stack (MEAN) and Python.",
+        "DevOps Skills (Beginner): Azure Cloud Operations, Docker and K8S.",
+        "DevSecOps(Beginner), Implementing Compliances and Cyber Security Standards."
+      ]
+    },
+    {
+      "organization": "AT&T Communication Services India Pvt Ltd",
+      "companyShortName": "AT&T",
+      "currentlyWorkingHere": true,
+      "designation": "Specialist, Full-stack Developer",
+      "products": [
+        {
+          "name": "Infobot",
+          "techStacks": ["Power Automate", "Power Virtual Agents", "MS-Teams"],
+          "description": "This is a chatbot built using Power Automate and Power Virtual Agent, empowers field technicians to instantly retrieve order information on demand. By seamlessly integrating with backend systems, it provides real-time updates and details for any requested order. This self-service approach streamlines operations and enhances technician productivity. As a result, support engineers are freed from routine order information queries, allowing them to focus on more complex tasks."
+        }
+      ],
+      "duration": "4 Years, Since July 2021"
+    }
+  ]
+}

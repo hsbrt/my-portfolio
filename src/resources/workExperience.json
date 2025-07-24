@@ -1,0 +1,98 @@
+{
+  "workExperiences": [
+    {
+      "roleName": "Full-stack Developer",
+      "companyName": "AT&T, Bangalore",
+      "presentlyWorkingHere": true,
+      "duration": "4 Years, Since July 2021",
+      "primarySkills": [
+        "Software Development Skills (Intermediate): Full stack (MEAN) and Python.",
+        "DevOps Skills (Beginner): Azure Cloud Operations, Docker and K8S.",
+        "DevSecOps(Beginner), Implementing Compliances and Cyber Security Standards."
+      ],
+      "projects": [
+        {
+          "projectName": "Integrated Solutions Portal",
+          "projectDescription": "This is a platform or an application eco system used internally for tasks and tracking within AT&T. Hosted on Azure K8S cluster with multiple microservices operating for different applications. Powered by MySql, Express, Angular, Node and Python tech stack. Highly used across AT&T for Tracking and Monitoring of the tickets.",
+          "techStack": [
+            "MySql",
+            "Express",
+            "AngularTs",
+            "Node",
+            "python",
+            "FastApi",
+            "Sequelize",
+            "SQLAlchemy"
+          ]
+        },
+        {
+          "projectName": "Infobot",
+          "projectDescription": "This is a chatbot built using Power Automate and Power Virtual Agent, empowers field technicians to instantly retrieve order information on demand. By seamlessly integrating with backend systems, it provides real-time updates and details for any requested order. This self-service approach streamlines operations and enhances technician productivity. As a result, support engineers are freed from routine order information queries, allowing them to focus on more complex tasks.",
+          "techStack": [
+            "Power Automate",
+            "Power Virtual Agent",
+            "Azure",
+            "Microsoft Teams"
+          ]
+        }
+      ]
+    },
+    {
+      "roleName": "Sr. Associate, Integrated Solutions Delivery",
+      "companyName": "AT&T, Bangalore",
+      "presentlyWorkingHere": false,
+      "duration": "4 Years, July 2017 to July 2021",
+      "primarySkills": ["CCNA", "VoIP", "IPFlex", "Routing and Switching"],
+      "projects": [
+        {
+          "projectName": "ADI & BVoIP",
+          "projectDescription": "DTAC support center activities involve, activation of Data and Voice services for customers, including thorough verification and configuration of their routers and connectivity circuits. Preparation of customer router and order for Test and Turn Up activation. To Manage LAN migration, cut-over, and hot swap activities to ensure minimal or no service outage. Additionally, to troubleshoot L1, L2 and L3 issues including inside wiring problems to deliver a seamless customer experience.",
+          "techStack": ["CCNA", "VoIP", "Cisco", "Vyatta", "BIB 4808"]
+        }
+      ]
+    },
+    {
+      "roleName": "Sr Engineer, Integrated Core Network Operations",
+      "companyName": "Bharti Airtel Pvt Ltd, Bangalore",
+      "presentlyWorkingHere": false,
+      "duration": "3.5 Years Nov 2013 to 2017 July.",
+      "primarySkills": ["GSM", "LTE", "SS7", "Transport Networks"],
+      "projects": [
+        {
+          "projectName": "Integrated Core Network Operations",
+          "projectDescription": "Led end-to-end management and troubleshooting of call flows while ensuring robust KPI and utilization monitoring, analysis, and continuous improvements across the core network. Conducted in-depth analysis of new products and features to enhance network capabilities and efficiency. Oversaw circuit core network reliability, incident response, outage management, disaster recovery, and damage control, maintaining high service availability. Drove core network hygiene through effective architecture design, alarm and fault management, regular backups, spare management, and implemented transport media diversity and redundancy strategies for resilient operations.",
+          "techStack": ["3G Mobility", "4G Mobility"]
+        },
+        {
+          "projectName": "Operator InterConnectivity",
+          "projectDescription": "As an engineer responsible for interconnectivity between mobile operators and the PSTN, I design, implement, and maintain seamless voice and data exchange pathways to ensure reliable communication across networks. My role involves configuring and troubleshooting interconnect circuits, monitoring call routing, and optimizing signaling protocols for efficient interoperability. I also collaborate closely with legal and regulatory teams to ensure all interconnection agreements, number portability, and traffic exchange comply with national telecom regulations and industry standards. Additionally, I oversee compliance with lawful interception, data retention policies, and reporting requirements, ensuring all activities adhere to legal, regulatory, and audit frameworks.",
+          "techStack": ["Regulations", "Interconnect Agreements"]
+        }
+      ]
+    },
+    {
+      "roleName": "Technician, Data Center Operations",
+      "companyName": "Ericsson India Pvt Ltd, Bangalore",
+      "presentlyWorkingHere": false,
+      "duration": "3 Years, 2010 to 2013",
+      "primarySkills": [
+        "Cabling",
+        "Inventory Management",
+        "Backup Management",
+        "Hardware Installations and De-commissioning"
+      ],
+      "projects": [
+        {
+          "projectName": "Alarm Delivery and Fault Management",
+          "projectDescription": "Alarm Delivery and Fault Management in mobility involve real-time monitoring of network elements to detect faults and performance issues. Automated alarm systems promptly notify operations teams about incidents, enabling rapid identification and prioritization based on severity. Engineers analyze alarm data and coordinate troubleshooting or corrective actions to restore service efficiently. This process minimizes service disruptions and ensures high network reliability for mobile users.",
+          "techStack": ["Client - Airtel"]
+        },
+        {
+          "projectName": "Data Center Operations",
+          "projectDescription": "A data center technician is responsible for installing and maintaining network cabling and physical connections to ensure optimal data flow and system performance. They handle hardware installations, upgrades, and replacements, making sure all equipment is securely and properly configured. The technician also manages regular system backups to safeguard critical data and enable quick recovery in case of failures. Additionally, they maintain accurate inventory records of hardware and components to support efficient operations and timely resource allocation.",
+          "techStack": ["Client - Airtel"]
+        }
+      ]
+    }
+  ]
+}

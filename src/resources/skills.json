@@ -1,0 +1,82 @@
+{
+  "primarySkills": [
+    {
+      "skillType": "Programming Languages",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "frameworks": ["Node.JS", "ReactJs", "NextJs", "Express", "Sequelize"]
+        },
+        {
+          "name": "TypeScript",
+          "frameworks": ["AngularTs"]
+        },
+        {
+          "name": "Python",
+          "frameworks": ["FastApi", "SQLAlchemy", "Django"]
+        }
+      ]
+    },
+    {
+      "skillType": "Mark-up Languages",
+      "skills": [
+        {
+          "name": "HTML",
+          "frameworks": []
+        },
+        {
+          "name": "CSS",
+          "frameworks": ["Bootstrap", "Tailwind CSS"]
+        },
+        {
+          "name": "YAML",
+          "frameworks": []
+        }
+      ]
+    },
+    {
+      "skillType": "Databases",
+      "skills": [
+        {
+          "name": "Relational-Databases",
+          "frameworks": ["MySql"]
+        },
+        {
+          "name": "Non-relational-Databases",
+          "frameworks": ["MongoDB"]
+        }
+      ]
+    },
+    {
+      "skillType": "Web Hosting",
+      "skills": [
+        {
+          "name": "Azure-Public-Cloud",
+          "frameworks": [
+            "Azure Kubernetes Service",
+            "Azure VMS",
+            "Azure App Service",
+            "Terraform"
+          ]
+        },
+        {
+          "name": "Azure-DevOps",
+          "frameworks": ["Docker", "Kubernetes", "Helm"]
+        }
+      ]
+    },
+    {
+      "skillType": "Certifications",
+      "skills": [
+        {
+          "name": "AWS Certified Solutions Architect",
+          "frameworks": []
+        },
+        {
+          "name": "Microsoft Certified: Azure Fundamentals",
+          "frameworks": []
+        }
+      ]
+    }
+  ]
+}
