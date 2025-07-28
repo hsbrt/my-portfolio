@@ -1,10 +1,6 @@
+import WcMs from "../Welcome/WelcomeMessage";
 export function Home() {
-  return (
-    <>
-      <p className="fs-1 text-center p-4">Hello World!</p>
-      <p className="fs-4 text-center p-4">Welcome to my page!</p>
-    </>
-  );
+  return <WcMs />;
 }
 
 export function HomeMenu() {

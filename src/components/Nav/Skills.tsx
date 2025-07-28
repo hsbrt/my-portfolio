@@ -4,12 +4,14 @@ export function Skills() {
   return (
     <>
       <h3 className="d-lg-none mt-2 mb-3 text-center">
-        <span className="p-2 badge text-bg-secondary">My Skills</span>
+        <span className="p-2 badge badge-bg">My Skills</span>
       </h3>
       {pSkills.map((skillObj, index) => (
-        <div className="card mb-4 p-xs-0" key={index}>
+        <div className="card mb-4 p-xs-0 skill-div-animation" key={index}>
           <div className="card-body">
-            <h5 className="card-title">{skillObj.skillType}</h5>
+            <h5 className="card-title p-2 skill-caption-bg">
+              {skillObj.skillType}
+            </h5>
             <hr></hr>
             {skillObj.skills.map((skillNameObj, skillIdx) => (
               <div

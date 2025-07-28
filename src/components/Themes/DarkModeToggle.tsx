@@ -23,17 +23,17 @@ export default function ThemeToggle() {
           )}
         </button>
         <ul className="dropdown-menu">
-          <li onClick={() => setDarkMode(true)}>
-            <a className="dropdown-item" href="#">
-              <div className="bi bi-moon-stars-fill">
-                <span className="d-inline mx-2">Dark</span>
-              </div>
-            </a>
-          </li>
           <li onClick={() => setDarkMode(false)}>
             <a className="dropdown-item" href="#">
               <div className="bi bi-brightness-high">
                 <span className="d-inline mx-2">Light</span>
+              </div>
+            </a>
+          </li>
+          <li onClick={() => setDarkMode(true)}>
+            <a className="dropdown-item" href="#">
+              <div className="bi bi-moon-stars-fill">
+                <span className="d-inline mx-2">Dark</span>
               </div>
             </a>
           </li>

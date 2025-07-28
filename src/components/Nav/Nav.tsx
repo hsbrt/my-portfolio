@@ -4,7 +4,12 @@ import { navRoutes, blogRoutes } from "../Routes/AllRoutes";
 export default function NavBar() {
   const location = useLocation();
   return (
-    <div className="container-fluid">
+    <div
+      className="container-fluid bg-dark-subtle"
+      style={{
+        background: "linear-gradient(135deg, #8d9abfff 0%, #272c8bff 100%)",
+      }}
+    >
       <nav className="navbar navbar-expand-md py-3">
         <Link
           to="/om"
@@ -12,7 +17,7 @@ export default function NavBar() {
           onClick={() => hideNavBarOnMdScreens()}
         >
           <span
-            className={`bi bi-house fs-3 px-2${
+            className={`bi bi-house fw-bold fs-3 px-2 text-white${
               location.pathname === "/om" ? " bg-primary" : ""
             } ${
               localStorage.getItem("darkMode") === "true"
@@ -29,6 +34,7 @@ export default function NavBar() {
           aria-controls="navbarSupportedContent"
           aria-expanded="true"
           aria-label="Toggle navigation"
+          color="white"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +51,7 @@ export default function NavBar() {
                     <ul className="nav nav-pills">
                       <li className="nav-item">
                         <div
-                          className={`nav-link ${
+                          className={`nav-link fs-6 text-white ${
                             location.pathname === route.path
                               ? " active text-white"
                               : ""
@@ -62,7 +68,7 @@ export default function NavBar() {
             ))}
             <li className="nav-item dropdown ms-auto">
               <div
-                className="nav-link dropdown-toggle d-flex justify-content-end align-items-center"
+                className="nav-link dropdown-toggle d-flex justify-content-end align-items-center disabled"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -71,7 +77,7 @@ export default function NavBar() {
                 <ul className="nav nav-pills">
                   <li className="nav-item">
                     <a
-                      className={`nav-link ${
+                      className={`nav-link text-white${
                         location.pathname.includes("/blog")
                           ? " active text-white"
                           : ""

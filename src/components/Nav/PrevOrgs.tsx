@@ -4,7 +4,7 @@ export function PrevOrgs() {
   return (
     <>
       <h3 className="d-lg-none mt-2 mb-3 text-center">
-        <span className="p-2 badge text-bg-secondary">Experience</span>
+        <span className="p-2 badge badge-bg">Experience</span>
       </h3>
       <div
         id="carouselIndicators"
@@ -24,7 +24,7 @@ export function PrevOrgs() {
             ></button>
           ))}
         </div>
-        <div className="carousel-inner">
+        <div className="carousel-inner carousel-nudge">
           {workExperience.workExperiences.map((experience, index) => (
             <div
               className={`carousel-item ${
@@ -50,7 +50,7 @@ export function PrevOrgs() {
                     </h3>
                     {experience.primarySkills.length && (
                       <button
-                        className="btn btn-primary w-100"
+                        className="btn experience-bg w-100"
                         type="button"
                         data-toggle="collapse"
                         data-target="#collapseExample"
@@ -75,17 +75,17 @@ export function PrevOrgs() {
                       experience.projects.map((project, index) => (
                         <div className="border rounded-3 my-3" key={index}>
                           <button
-                            className="btn btn-primary w-100"
+                            className="btn experience-bg w-100"
                             type="button"
-                            data-toggle="collapse"
-                            data-target="#collapseExample"
-                            aria-expanded="false"
-                            aria-controls="collapseExample"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#collapseExample-${index}`}
+                            aria-expanded="true"
+                            aria-controls={`collapseExample-${index}`}
                           >
                             {project.projectName}
                           </button>
-                          <div className="show" id="collapseExample">
-                            <div className="card card-body pb-5 px-1 px-md-3">
+                          <div className="show" id={`collapseExample-${index}`}>
+                            <div className="card card-body pb-5 px-1 px-md-3 hidden">
                               <p>{project.projectDescription}</p>
                               {project.techStack && (
                                 <p className="fw-bold">Tech Stack</p>

@@ -3,9 +3,9 @@ export function Contact() {
   return (
     <>
       <h3 className="d-lg-none mt-2 mb-3 text-center">
-        <span className="p-2 badge text-bg-secondary">Contact Me</span>
+        <span className="p-2 badge badge-bg">Contact Me</span>
       </h3>
-      <div className="card mx-2">
+      <div className="card mx-2 drop-bounce">
         <div className="card-body">
           <h5 className="card-title my-3 fw-bold">Contact Information</h5>
           <p className="card-text my-3 fw-light">

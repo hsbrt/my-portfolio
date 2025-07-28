@@ -2,9 +2,9 @@ export function Enquiry() {
   return (
     <>
       <h3 className="d-lg-none mt-2 mb-3 text-center">
-        <span className="p-2 badge text-bg-secondary">Submit Enquiry</span>
+        <span className="p-2 badge badge-bg">Submit Enquiry</span>
       </h3>
-      <div className="border rounded-4 p-3 mx-2">
+      <div className="border rounded-4 p-3 mx-2 enquiry-email">
         <form action="https://formspree.io/f/xvgqkoed" method="POST">
           <div className="mb-3">
             <label htmlFor="InputEmail1" className="form-label">
