@@ -123,7 +123,7 @@ export default function MyJourney2() {
           </div>
           <div className="motorcycle-moving img-fluid">
             <img
-              src="my-portfolio\src\assets\biker6.png"
+              src="my-portfolio/public/biker6.png"
               className="img-fluid"
               alt=""
             />
@@ -150,7 +150,7 @@ export default function MyJourney2() {
             >
               {milestone.isMileStone ? (
                 <img
-                  src="my-portfolio/src/assets/milestone1.png"
+                  src="my-portfolio/public/milestone1.png"
                   alt=""
                   className="image-fluid my-5 py-5 mx-sm-1"
                 ></img>
@@ -167,7 +167,7 @@ export default function MyJourney2() {
           ))}
           <div className="d-flex justify-content-center align-items-center">
             <img
-              src="my-portfolio/src/assets/race.png"
+              src="my-portfolio/public/race.png"
               alt=""
               className="w-25 h-auto"
             />
