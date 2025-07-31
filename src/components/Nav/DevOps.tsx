@@ -8,17 +8,9 @@ export function DevOps() {
 }
 
 export function DevOpsMenu() {
-  return (
-    <>
-      <p>This is the my Devops journey menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my Devops journey menu.</p> */}</>;
 }
 
 export function DevOpsSubMenu() {
-  return (
-    <>
-      <p>This is the my Devops journey sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my Devops journey sub menu.</p> */}</>;
 }

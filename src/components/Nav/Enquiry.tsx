@@ -166,17 +166,9 @@ function handleInputChange() {
 }
 
 export function EnquiryMenu() {
-  return (
-    <>
-      <p>This is the enquiry menu section.</p>
-    </>
-  );
+  return <>{/* <p>This is the enquiry menu section.</p> */}</>;
 }
 
 export function EnquirySubMenu() {
-  return (
-    <>
-      <p>This is the enquiry sub menu section.</p>
-    </>
-  );
+  return <>{/* <p>This is the enquiry sub menu section.</p> */}</>;
 }

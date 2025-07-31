@@ -136,17 +136,9 @@ export function PrevOrgs() {
 }
 
 export function PrevOrgsMenu() {
-  return (
-    <>
-      <p>This is the my previous organizations menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my previous organizations menu.</p> */}</>;
 }
 
 export function PrevOrgsSubMenu() {
-  return (
-    <>
-      <p>This is the my previous organizations sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my previous organizations sub menu.</p> */}</>;
 }

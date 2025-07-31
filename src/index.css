@@ -100,6 +100,33 @@
   color: white;
 }
 
+.journey-bg {
+  background: linear-gradient(270deg, rgb(249, 249, 249), rgb(145, 145, 145));
+}
+
+@media (max-width: 575.98px) {
+  .biker-img-xs {
+    width: 500px !important;
+    height: auto !important;
+  }
+}
+
+.motorcycle-moving {
+  position: fixed; /* Keeps the image in view while scrolling */
+  top: 40%;
+  transform: translateY(-50%);
+  animation: moveUpDown 2s infinite alternate ease-in;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-70%);
+  }
+}
+
 /* 
 a {
   font-weight: 500;

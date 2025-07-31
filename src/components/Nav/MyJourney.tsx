@@ -1,24 +1,17 @@
+import MyJourney2 from "../MyJourney/MyJourney";
+
 export function Journey() {
   return (
     <>
-      <h1>My Journey</h1>
-      <p>This is the journey section.</p>
+      <MyJourney2 />
     </>
   );
 }
 
 export function JourneyMenu() {
-  return (
-    <>
-      <p>This is the my journey menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my journey menu.</p> */}</>;
 }
 
 export function JourneySubMenu() {
-  return (
-    <>
-      <p>This is the my journey sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my journey sub menu.</p> */}</>;
 }

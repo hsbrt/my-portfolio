@@ -8,17 +8,9 @@ export function SystemDesign() {
 }
 
 export function SystemDesignMenu() {
-  return (
-    <>
-      <p>This is the my system design skills menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my system design skills menu.</p> */}</>;
 }
 
 export function SystemDesignSubMenu() {
-  return (
-    <>
-      <p>This is the my system design skills sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my system design skills sub menu.</p> */}</>;
 }

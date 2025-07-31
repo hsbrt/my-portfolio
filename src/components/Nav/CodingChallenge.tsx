@@ -8,17 +8,9 @@ export function CodingChallenges() {
 }
 
 export function CodingChallengesMenu() {
-  return (
-    <>
-      <p>This is the Coding Challenges menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the Coding Challenges menu.</p> */}</>;
 }
 
 export function CodingChallengesSubMenu() {
-  return (
-    <>
-      <p>This is the Coding Challenges sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the Coding Challenges sub menu.</p> */}</>;
 }

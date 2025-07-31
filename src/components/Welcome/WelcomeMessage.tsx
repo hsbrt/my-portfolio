@@ -7,7 +7,7 @@ const WcMs = () => {
   const [showCursor, setShowCursor] = useState(true);
 
   const fullText = "Hello World!";
-  const typingSpeed = 500; // 1 second per letter
+  const typingSpeed = 200; // 1 second per letter
 
   useEffect(() => {
     // Typing effect

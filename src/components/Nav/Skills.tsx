@@ -62,17 +62,9 @@ export function Skills() {
 }
 
 export function SkillsMenu() {
-  return (
-    <>
-      <p>This is the my skills menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my skills menu.</p> */}</>;
 }
 
 export function SkillsSubMenu() {
-  return (
-    <>
-      <p>This is the my skills sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the my skills sub menu.</p> */}</>;
 }

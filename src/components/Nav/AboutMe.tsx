@@ -20,17 +20,9 @@ export function AboutMe() {
 }
 
 export function AboutMeMenu() {
-  return (
-    <>
-      <p>This is the about me menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the about me menu.</p> */}</>;
 }
 
 export function AboutMeSubMenu() {
-  return (
-    <>
-      <p>This is the about me sub menu.</p>
-    </>
-  );
+  return <>{/* <p>This is the about me sub menu.</p> */}</>;
 }

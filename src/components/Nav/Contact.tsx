@@ -48,17 +48,9 @@ export function Contact() {
 }
 
 export function ContactMenu() {
-  return (
-    <>
-      <p>This is the contact me section.</p>
-    </>
-  );
+  return <>{/* <p>This is the contact me section.</p> */}</>;
 }
 
 export function ContactSubMenu() {
-  return (
-    <>
-      <p>This is the contact me submenu section.</p>
-    </>
-  );
+  return <>{/* <p>This is the contact me submenu section.</p> */}</>;
 }
