@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const WcMs = () => {
@@ -108,10 +108,10 @@ const WcMs = () => {
                     transition: "all 0.3s ease",
                     transform: "translateY(0)",
                   }}
-                  onMouseOver={(e) =>
+                  onMouseOver={(e: any) =>
                     (e.target.style.transform = "translateY(-3px)")
                   }
-                  onMouseOut={(e) =>
+                  onMouseOut={(e: any) =>
                     (e.target.style.transform = "translateY(0)")
                   }
                 >
@@ -144,7 +144,7 @@ const WcMs = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes fadeIn {
           from {
             opacity: 0;
