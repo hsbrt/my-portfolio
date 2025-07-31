@@ -13,6 +13,16 @@ export default function MainPageComp() {
   return (
     <Routes>
       <Route
+        path="/my-portfolio"
+        element={
+          <InfoLayout
+            menuComp={<HomeMenu />}
+            mainComp={<Home />}
+            subComp={null}
+          />
+        }
+      />
+      <Route
         path="/"
         element={
           <InfoLayout

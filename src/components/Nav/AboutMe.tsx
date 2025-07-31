@@ -8,7 +8,7 @@ export function AboutMe() {
           <span className="badge badge-bg my-xs-2 my-sm-2">About Me</span>
         </h3>
         <img
-          src="src\resources\bharat2.jpg"
+          src="my-portfolio/src/resources/bharat2.jpg"
           alt="my-image"
           className="img-fluid w-50 h-auto rounded-3 mx-auto my-lg-4 about-me-image"
         />

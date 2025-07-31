@@ -122,7 +122,11 @@ export default function MyJourney2() {
             ))}
           </div>
           <div className="motorcycle-moving img-fluid">
-            <img src="src\assets\biker6.png" className="img-fluid" alt="" />
+            <img
+              src="my-portfolio\src\assets\biker6.png"
+              className="img-fluid"
+              alt=""
+            />
           </div>
           <div className="mx-auto d-none d-sm-flex flex-column">
             <div className="mb-5"></div>
@@ -146,7 +150,7 @@ export default function MyJourney2() {
             >
               {milestone.isMileStone ? (
                 <img
-                  src="src\assets\milestone1.png"
+                  src="my-portfolio/src/assets/milestone1.png"
                   alt=""
                   className="image-fluid my-5 py-5 mx-sm-1"
                 ></img>
@@ -162,7 +166,11 @@ export default function MyJourney2() {
             </div>
           ))}
           <div className="d-flex justify-content-center align-items-center">
-            <img src="src/assets/race.png" alt="" className="w-25 h-auto" />
+            <img
+              src="my-portfolio/src/assets/race.png"
+              alt=""
+              className="w-25 h-auto"
+            />
           </div>
         </div>
       </div>
