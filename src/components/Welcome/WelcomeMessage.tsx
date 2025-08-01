@@ -100,7 +100,7 @@ const WcMs = () => {
             </p>
 
             <div className="d-flex justify-content-center gap-3 flex-wrap">
-              <Link to={`/about-me`} className="nav-link">
+              <Link to={`/my-portfolio/about-me`} className="nav-link">
                 <button
                   className="btn btn-light px-5 py-3 fw-bold shadow text-dark-50 fs-5 badge-bg"
                   style={{

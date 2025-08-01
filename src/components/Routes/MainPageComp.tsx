@@ -23,7 +23,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/"
+        path="/my-portfolio"
         element={
           <InfoLayout
             menuComp={<HomeMenu />}
@@ -33,7 +33,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/om"
+        path="/my-portfolio/om"
         element={
           <InfoLayout
             menuComp={<HomeMenu />}
@@ -43,7 +43,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/about-me"
+        path="/my-portfolio/about-me"
         element={
           <InfoLayout
             menuComp={<AboutMeMenu />}
@@ -53,7 +53,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/journey"
+        path="/my-portfolio/journey"
         element={
           <InfoLayout
             menuComp={<JourneyMenu />}
@@ -63,7 +63,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/skills"
+        path="/my-portfolio/skills"
         element={
           <InfoLayout
             menuComp={<SkillsMenu />}
@@ -73,7 +73,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/previous-organizations"
+        path="/my-portfolio/previous-organizations"
         element={
           <InfoLayout
             menuComp={<PrevOrgsMenu />}
@@ -83,7 +83,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/contact-me"
+        path="/my-portfolio/contact-me"
         element={
           <InfoLayout
             menuComp={<ContactMenu />}
@@ -93,7 +93,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/enquiry"
+        path="/my-portfolio/enquiry"
         element={
           <InfoLayout
             menuComp={<EnquiryMenu />}
@@ -103,7 +103,7 @@ export default function MainPageComp() {
         }
       />
       <Route
-        path="/blog/*"
+        path="/my-portfolio/blog/*"
         element={
           <InfoLayout
             menuComp={<EnquiryMenu />}

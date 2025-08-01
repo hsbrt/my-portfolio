@@ -12,7 +12,7 @@ export default function NavBar() {
     >
       <nav className="navbar navbar-expand-md py-3">
         <Link
-          to="/om"
+          to="/my-portfolio/om"
           className="navbar-brand text-decoration-none text-dark"
           onClick={() => hideNavBarOnMdScreens()}
         >

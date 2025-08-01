@@ -53,55 +53,56 @@ export function Enquiry() {
           >
             Submit
           </button>
-          <div
-            className="modal fade"
-            id="staticBackdrop"
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabIndex={-1}
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog modal-dialog-scrollable modal-dialog-centered">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h1 className="modal-title fs-5" id="staticBackdropLabel">
-                    Terms and Conditions
-                  </h1>
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div className="modal-body">
-                  <p>Hello World</p>
-                  <p>Blah</p>
-                  <p>Blah</p>
-                </div>
-                <div className="modal-footer">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                    onClick={() => agreeToConditions("no")}
-                  >
-                    Close
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-primary"
-                    data-bs-dismiss="modal"
-                    onClick={() => agreeToConditions("yes")}
-                  >
-                    Understood
-                  </button>
-                </div>
-              </div>
+        </form>
+      </div>
+      <div
+        className="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabIndex={-1}
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-5" id="staticBackdropLabel">
+                Terms and Conditions
+              </h1>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                disabled={false}
+              ></button>
+            </div>
+            <div className="modal-body">
+              <p>Hello World</p>
+              <p>Blah</p>
+              <p>Blah</p>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+                onClick={() => agreeToConditions("no")}
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                className="btn btn-primary"
+                data-bs-dismiss="modal"
+                onClick={() => agreeToConditions("yes")}
+              >
+                Understood
+              </button>
             </div>
           </div>
-        </form>
+        </div>
       </div>
       <div className="toast-container position-fixed bottom-0 end-0 p-3">
         <div
@@ -112,7 +113,7 @@ export function Enquiry() {
           aria-atomic="true"
         >
           <div className="toast-header">
-            <strong className="me-auto">Bootstrap</strong>
+            <strong className="me-auto">Bharath</strong>
             <small>now</small>
             <button
               type="button"
